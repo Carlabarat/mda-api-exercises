@@ -41,8 +41,8 @@ def notes_collection():
     # TODO: Validate required fields title and content
     # Hint: title = data.get('title'); content = data.get('content')
     errors = []
-    title = _____
-    content = _____
+    title = data.get('title')
+    content = data.get('content')
     if not isinstance(title, str) or not title.strip():
         errors.append({'field': 'title', 'message': 'title is required and must be a non-empty string'})
     if not isinstance(content, str) or not content.strip():
@@ -65,7 +65,7 @@ def notes_collection():
     return jsonify(note), 201
 
 
-@app.route('/notes/<int:note_id>', methods=['_____'])  # TODO: Set the correct HTTP method for retrieval
+@app.route('/notes/<int:note_id>', methods=['GET'])  # TODO: Set the correct HTTP method for retrieval
 # Hint: Use 'GET'
 def note_item(note_id):
     """Return a single note by id"""

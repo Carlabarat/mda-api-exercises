@@ -35,10 +35,12 @@ En este ejercicio, investigarás el concepto de API (Interfaz de Programación d
 
 2. **Definir API:**
    - Basándote en tu investigación, redacta una definición propia de API.
+   - Las API se utilizan para que unas aplicaciones puedan comunicarse con otras sin necesidad de saber cómo están construidas por dentro.
 
 3. **Explorar la Importancia de las APIs:**
    - Piensa en cómo las APIs facilitan la integración entre diferentes servicios y aplicaciones.
    - Identifica beneficios como la modularidad, escalabilidad y reutilización de código.
+   - Algunos beneficios son la reutilización de código ya que con una misma API podemos usarla en varias aplicaciones y por tanto eso va a suponer una ahorro de tiempo y costes
 
 4. **Seleccionar y Describir APIs Populares:**
    - Elige 1 API que sea relevantes y ampliamente reconocida, como:
@@ -46,10 +48,45 @@ En este ejercicio, investigarás el concepto de API (Interfaz de Programación d
      - **Twitter API**
      - **Stripe API**
    - Investiga cada una para ver para que sirven.
+   - La de google permite integrar mapas interactivos en páginas web y aplicaciones, asi como calcular rutas y mostrar puntos de interes por ejemplo. Una tienda online puede mostrar la ubicacion de sus establecimientos sin crear un sistema de mapas propio
 
 5. **Menciona frameworks que se utilicen para el desarrollo de API.**
    - Realiza una busqueda sobre diferentes frameworks de desarrollo de APIs.
+  
+1. Express.js (Node.js)
+Muy popular y fácil de aprender.
+Se usa para crear APIs REST.
+Muy común en proyectos web modernos.
+Netflix
+Utiliza Node.js y Express en parte de su backend para gestionar peticiones de usuarios y mejorar el rendimiento.
+Uber
+Usa Node.js (con frameworks como Express) para manejar grandes volúmenes de solicitudes en tiempo real.
+PayPal
+Migró parte de su infraestructura a Node.js para mejorar velocidad y eficiencia.
 
+
+1. Spring Boot (Java)
+Muy utilizado en empresas y grandes proyectos.
+Permite crear APIs robustas y seguras.
+Muy demandado en entornos profesionales.
+Amazon
+Utiliza Spring Boot en múltiples microservicios de su infraestructura.
+Netflix (backend corporativo)
+Usa Spring Boot junto con microservicios para gestionar servicios internos.
+Bancos y aseguradoras
+Muchas entidades financieras utilizan Spring Boot para APIs seguras y robustas.
+
+
+1. Django REST Framework (Python)
+Extensión de Django para crear APIs.
+Facilita la validación de datos y la seguridad.
+Muy usado en proyectos académicos y profesionales.
+Instagram
+Parte de su backend está construido con Django y APIs basadas en Django REST.
+Pinterest
+Utiliza Django para gestionar servicios internos y APIs.
+Plataformas educativas y startups
+Muy usado en proyectos académicos y empresas tecnológicas.
 
 
 ## Recursos

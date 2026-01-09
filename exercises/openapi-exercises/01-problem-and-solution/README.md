@@ -40,9 +40,9 @@ Using only Postman or curl, try to answer these questions:
    - Hint: Try `/books`, `/api/books`, etc.
 
 2. **What HTTP methods does each endpoint support?**
-
+Safe, get y options
 3. **For POST requests:**
-   - What fields are required?
+   - What fields are required? title and author
    - What format is expected?
 
 4. **What do the responses look like?**
